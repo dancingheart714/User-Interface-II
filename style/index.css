@@ -24,9 +24,9 @@ h1 {
   justify-content: space-around;
   padding: 19px;
   background-color: paleturquoise;
-  padding-bottom: 8px;
+  padding-bottom: 2rem;
   margin-left: 8rem;
-  margin-right: 8rem;
+  margin-right: 5rem;
 }
 
 * {
@@ -37,7 +37,7 @@ h1 {
   padding: 20px;
   margin-top: 0;
   margin-left: 8rem;
-  margin-right: 8rem;
+  margin-right: 5rem;
 }
 
 .button {
@@ -67,7 +67,9 @@ h2 {
   font-size: 40px;
 }
 p{
+  padding-top: 2rem;
     padding: 50px;
+    padding-top: 5px;
 }
 .container{
     display: flex;
@@ -93,15 +95,57 @@ img {
   margin-left: 3rem;
   margin-right: 7rem; 
  margin-top:0;
+ margin-bottom: 0;
+}
+
+.gallery p{
+  display: flex;
+  font-size: 14px;
+  margin-top: -50px;
+  padding-top: 0;
+  margin-left: 9rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.gallery_two{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+margin-left: 3rem;
+margin-right: 7rem; 
+margin-top:0;
+margin-bottom: 0;
+}
+
+.gallery_two p{
+  display: flex;
+  font-size: 14px;
+  margin-top: -50px;
+  padding-top: 0;
+  margin-left: 9rem;
+  margin-right: 1rem;
+  text-align: center;
 }
 
 .bottom {
   display: flex; 
   flex-wrap: wrap; 
+  flex-direction: column;
   background-color: paleturquoise;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 170px;
+  margin-left: 8rem;
+  margin-right: 5rem;
+}
+
+.bottom p{
+  display: flex;
+  margin-left: 27rem;
+  margin-right: 27rem;
+  padding-bottom: .75rem;
+  padding-top: .25rem;
 }
 
 .button2{
@@ -113,4 +157,5 @@ img {
   text-align: center;
   text-decoration: none;
   font-size: 16px; 
+  padding-top: .75rem;
 }
