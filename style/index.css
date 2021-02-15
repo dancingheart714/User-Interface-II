@@ -19,10 +19,10 @@ p {
 h1 {
   color: black;
   font-family: "Playfair Display", serif;
-  font-size: 40px;
-  height: 50px;
+  font-size: 2rem;
+  height: 2rem;
   justify-content: space-around;
-  padding: 19px;
+  padding: 1rem;
   background-color: paleturquoise;
   padding-bottom: 2rem;
   margin-left: 8rem;
@@ -33,14 +33,17 @@ h1 {
     box-sizing: border-box;
 }
 .nav {
+  display: flex;
+  display-direction: column;
   background-color: paleturquoise;
-  padding: 20px;
+  padding: 1rem;
   margin-top: 0;
   margin-left: 8rem;
   margin-right: 5rem;
 }
 
 .button {
+  display: flex;
   background-color: royalblue;
   border: solid black 1px;
   color: white;
@@ -159,3 +162,184 @@ margin-bottom: 0;
   font-size: 16px; 
   padding-top: .75rem;
 }
+
+@media(max-width: 800px){
+
+  body{
+    background-color:lightblue;
+  }
+
+.container{
+  display:inline-block;
+  justify-contents:center;  
+}
+
+  .middlesection{
+    display:inline-block;
+    width: 625px;
+    height: 300px;
+  }
+
+.bottom p{
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+@media(max-width: 800px) {
+  body{
+      background-color: cornsilk;
+  }
+
+h1{
+  margin: 0%;
+  text-align: center;
+}
+
+.nav{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:0%;
+  padding-left: 5rem;
+}
+
+
+
+.button{
+  width: 30%;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-items: center;
+  margin-right: 5rem;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button2{
+  width: 50%;
+  padding: 10%;
+  font-size: 14px;
+}
+
+.middlesection img{
+  padding-bottom: .5rem;
+  margin: 0%;
+  justify-content: center;
+  padding-left: 4rem;
+}
+
+
+.container{
+  margin-left:40%;
+  margin-right: 25%
+}
+
+.gallery{
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 15rem;
+}
+
+.gallery2{
+  align-items: center;
+  margin-right: 15rem;
+  margin-top: 2rem;
+}
+
+.gallery p{
+  display: flex;
+  font-size: 14px;
+  padding:3rem; 
+  text-align: center;
+  margin-left: -20px;
+}
+
+.gallery2 p{
+  display: flex;
+  font-size: 14px;
+  padding: 3rem;
+  text-align: center;
+  margin-left: -20px;
+}
+
+.bottom{
+  width:max-content;
+}
+
+
+@media(max-width: 500px) {
+  body{
+      background-color: pink;
+  }
+
+h1{
+  margin: 0;
+  text-align: left;
+}
+
+.nav{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:0%;
+}
+
+.button2{
+  width: 50%;
+  padding: 10%;
+  font-size: 14px;
+}
+
+img{
+  display: flex;
+  margin: 0%;
+  max-width: 60%;
+  size: 400x200;
+}
+
+.middlesection{
+  padding-bottom: .5rem;
+}
+
+.container{
+  width: 60%;
+}
+
+.gallery{
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 15rem;
+}
+
+.gallery2{
+  align-items: center;
+  margin-right: 15rem;
+  margin-top: 2rem;
+}
+
+.gallery p{
+  display: flex;
+  font-size: 14px;
+  padding:3rem; 
+  text-align: center;
+  margin-left: -20px;
+}
+
+.gallery2 p{
+  display: flex;
+  font-size: 14px;
+  padding: 3rem;
+  text-align: center;
+  margin-left: -20px;
+}
+
+.bottom{
+  width:max-content;
+}
+}
+
